@@ -1,0 +1,46 @@
+
+body {
+  height: 100%;
+}
+
+body {
+  -webkit-animation: background 10s cubic-bezier(1,0,0,1) infinite;
+  animation: background 10s cubic-bezier(1,0,0,1) infinite;
+}
+
+@keyframes background {
+  0% { background-color: #f99; }
+  33% { background-color: #9f9; }
+  67% { background-color: #99f; }
+  100% { background-color: #f99; }
+}
+
+
+
+div {
+
+width: 100px;
+height: 100px;
+position: relative;
+background-color: pink;
+animation-name: Maria;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+border-top-left-radius: 4px;
+border-top-right-radius: 6px;
+border-bottom-right-radius: 8px;
+border-bottom-left-radius: 10px;
+background: url(Image/victoriafalls.jpg) center no-repeat;
+
+   }
+
+
+   @keyframes Maria {
+
+        0% { background color: red; left:0px; top:0px}
+        25%{ background-color: yellow; left:700px; top:0px;}
+        50% { background-color: darkblue; left:700px; top:200px;}
+        75% { background-color: darkgreen; left:0px; top:200px; }
+        100% { background-color: pink; left:0px; top:0px;}
+
+}
